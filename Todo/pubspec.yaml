@@ -1,0 +1,40 @@
+name: trabalho_grupo
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  dotted_line: ^3.2.2
+  provider: ^6.1.2
+  dio: ^5.4.3+1
+  talker_dio_logger: ^4.2.0
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/lovepeople_logo.png
+
+  fonts:
+    - family: Tahoma
+      fonts:
+        - asset: assets/fonts/Tahoma.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
